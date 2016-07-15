@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+The diffs can be compared (- and + marks). They tell me what I have changed, so if something doesn’t look right, I should be able to identify it instantly.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+It helps to trigger the thought process and the considerations I have made when writing the codes.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+Pros of creating a commit:
+I get to choose what and when to make the commit.
+
+Cons of creating a commit:
+I have to be decide whether I am making a logical change, whether the change is too big, too small or just right…
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+For files that references or imports from/exports to other files, such as HTML/CSS/JS files, it may be necessary to track multiple files in one commit. Git is good at this.
+
+For files that are handled singly or has its dedicated application, and doesn’t require references to other files, then treating each files separately makes better sense, rather than making a commit of a bunch of files. It may be tempting to group a bunch of files with the same file extensions or file types, such as photos or music files, but these types of files would not be suitable for Git commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+git log for the commit IDs that comes with a summary note on the commit.
+git diff between two IDs can bring out the insertions and deletions made.
+—stat flag summarizes # of insertions and deletions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+I can always go back to the version that doesn’t break and use git diff to debug the code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+Put my codes in there and let it take care of version control!
