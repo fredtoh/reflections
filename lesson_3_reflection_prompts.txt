@@ -1,0 +1,52 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    Fill in your answer here
+When I am collaborating with others who may not be physically near me.
+When I don’t have access to my computer at home.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Fill in your answer here
+Since the Github repository may have different content from my local repository, I would want to make sure I’m not messing up the files that I already have. Therefore, it should be a deliberate action to pull the changes to my local repository, just like making a commit.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fill in your answer here
+Branches are variations of the collection that exist in a repository. A branch resembles a tree branch as it has a tip (leaf?), which has connections to other nodes along the same branch. The base of the branch is then connected to an older/more mature branch, which is in turn connected to another older mature branch, and so on.
+
+A clone is an instant snapshot of an existing repository. A fork is an instant snapshot of an existing repository on Github.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    Fill in your answer here
+I would imagine it be useful when one is on the road traveling and remote access is limited.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Fill in your answer here
+Without using Git or Github, the main way to collaborate would be having meetings, taking minutes of actions to take, etc. Then progress updates will be carried out through emails. Verbal updates will also be a mode of communication. Checklists and sign-off sheets.
+
+The communication channel will definitely a lot more intertwined in normal collaboration situations. It’s easier just giving verbal updates or making verbal agreement, but it will be hard to keep track of such communications. This is especially so when there are updates to tasks. 
+
+It’s also harder to keep track of paperworks. And if one doesn’t remember where the paper is kept, it will hard to retrieve what is written on it. When the paper is not place at the front  of the desk, the chances of getting to it is also harder. It really relies heavily on how good the memory of the worker is.
+
+Using Git/Github is quite a different approach to collaboration. It provides good structure and traceability. On the mechanics of using it, there are a lot of components. Learning them is on the difficult side. It is not intuitive to use, to say the least.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    Fill in your answer here
+When to make changes in a separate branch:
+Test out new features/beta version, experimental developments
+Getting feedbacks from collaborators.
+Collaborators work before committing to the final / stable version.
+
+Benefits:
+1. What is already working will always be the master, so operating on a different branch will not affect the master.
+2. Easier to track for comments through pull requests

@@ -1,24 +1,46 @@
 What happens when you initialize a repository? Why do you need to do it?
-The Git repository is empty. Need to initialize in order to do a commit. Git doesn’t do any commits in the init stage because it doesn’t know what you want to commit.
+- The Git repository is empty. Need to initialize in order to do a commit. Git doesn’t do any commits in the init stage because it doesn’t know what you want to commit.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-The repository keeps a record of the commits and changes.
-The staging area shows a list of files to be committed and files that are not tracked yet.
+- The repository keeps a record of the commits and changes. The staging area shows a list of files to be committed and files that are not tracked yet. The working directory has the files, including any changes to the current commit, but won’t have that information that there are changes made.
 
-The staging area provides a sanity check/safety zone and helps me check if I am ready to make a commit or not.
+- The staging area provides a sanity check/safety zone and helps me check if I am ready to make a commit or not.
 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+- Since I need to write a message before I the commit leaves the staging area, I would make use of the commit message to remind me if I am making 1 logical change in this commit.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+- If I want to explore a different feature, I could branch out temporarily.
+- If my main program already works, but I want to test out some codes, I could branch out, test it, debug it if needed. And when I’m ready or when I’m done with it, I can return to the main program, unchanged.
+
+— master branch - robust, production-quality branch
+- backup branch
+
+CONTEXT SWITCH:
+- development mode branch
+- experimental branch
+- feature branch
+
+
 How do the diagrams help you visualize the branch structure?
+
+- It helps me trace the history of the project’s development 
+- It helps me locate where is the master, how many branches, etc…
+- It helps me plan whether, where and how to merge/combine project works. Likewise, what to discard if needed.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The representation is like branches of a tree. Merging is almost like branches coming together as one.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+I don’t know what’s going on inside automatic merging… but it seems to work pretty well.
+It’s tedious to do manual merging.
